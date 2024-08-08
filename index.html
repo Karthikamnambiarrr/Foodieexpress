@@ -32,16 +32,19 @@
             font-size: 18px;
             color: rgb(89, 88, 88);
         }
-        nav div ul li a:hover{
-            color:orangered;
+       
+        
+        nav .dropdown{
+          color:#db8bac;
         }
         .card-title:hover{
-            color:orangered;
+            color:#db8bac;
             font-size: 20px;
         }
       div .btn{
           margin:10px;
         }
+     
 
     
       
@@ -54,7 +57,7 @@
     <!-- navbar -->
    <nav class="navbar navbar-expand-lg navbar-dark bg-white" style="position: sticky; top:0px; z-index: 1;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQutzZeyE-CZYowc3IaPhTAfOZx2NuuQTi-og&s" alt="" height="100px" width="150px"></a>
+          <a class="navbar-brand" href="#"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThURPuwOf4f86cWHwpyYe3Svz4JtgQDOpj3w&s" alt="" height="80px" width="150px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -75,17 +78,18 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="#">Food Order</a></li>
-                  <li><a class="dropdown-item" href="#">Instamart</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item " href="#">Supermart</a></li>
+                  <li><a class="dropdown-item " href="#">Dine out</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
         <div style="width:1500px">
-            <ul type="none" class="d-flex justify-content-evenly fs-5" style="margin:10px;" >
-                <li><a href="#" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-desktop fa-flip-vertical"></i> Foodie Corporate</a></li>
-                <li><a href="#" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+            <ul id="sec" type="none" class="d-flex justify-content-around m-3 fs-5" style="margin:10px;" >
+                <li><a href="#" style="color:#4b4a4a; text-decoration: none;" class="hover"><i class="fa-solid fa-desktop fa-flip-vertical"></i> Foodie Corporate</a></li>
+                
+                <li><a href="#about" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-address-book"></i> About Us</a></li>
                 <li><a href="#offer" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-wand-magic-sparkles"></i> Offers</a></li>
                 <li><a href="#contact" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-handshake"></i> Contact Us</a></li>
                 <li><a href="#" style="color:#4b4a4a; text-decoration: none;"><i class="fa-solid fa-user"></i> Login</a></li>
@@ -93,8 +97,48 @@
             </ul>
         </div>
       </nav>
+       <div class="d-flex justify-content-center">
+        <video src="./3626148-uhd_4096_2160_25fps.mp4" autoplay loop  width="100%"></video>
+        <div  style="position: absolute; height:30px; background-color: rgba(0, 0, 0, 0.479);">
+          <h1 style="color:white; margin-top: 600px; margin-right: 800px; font-size: 70px;">food and groceries <br> in a tap</h1>
+         </div>
+      </div>
+      <!-- about -->
+    <div id="about" style="margin:30px; height: 200px; width:1200px; margin-left: 240px; color:#4b4a4a; margin-top: 100px;">
+      <h2  class="fs-1">We’re here to help you live life the foodie way. <br>
+        Spend more time doing what you love – we’ll take care of tasty meals, fresh groceries and new flavours.</h2>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <div class="m-3">
+        <img src="https://www.foodpanda.com/wp-content/uploads/2023/02/fp-home.jpg" alt="" height="400px" width="700px">
+      </div>
+      <div class="m-3" style="width:500px;">
+        <h1 class="p-3">Meet the next generation of delivery!</h1>
+        <p class="p-3">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
+        <button type="button" style="background-color: rgb(196, 49, 98); color:aliceblue" class="btn btn-lg">read our story</button>
+      </div>
+    </div>
+
+    
+    <div class="d-flex justify-content-center " style="margin-top: 100px;">
+      <div class="m-3" style="width:600px;">
+        <h1 class="p-3">Taste the convenience.</h1>
+        <p class="p-3">Try us out! Delicious food and speedy groceries are at your fingertips. Go ahead, download foodpanda now.</p>
+        <div>
+          <button type="button" class="btn"><img src="https://www.foodpanda.com/wp-content/uploads/2023/02/app-apple.png" alt=""></button>
+          <button type="button" class="btn"><img src="https://www.foodpanda.com/wp-content/uploads/2023/02/app-google.png" alt=""></button>
+          <button type="button" class="btn"><img src="https://www.foodpanda.com/wp-content/uploads/2023/02/app-huawei.png" alt=""></button>
+        </div>
+      </div>
+      <div class="m-3" style="padding-left: 80px;">
+        <img src="https://wallpapers.com/images/featured/food-delivery-uzm1ss89qzgz2qtu.jpg" alt="" height="400px" width="600px">
+        
+      </div>
+    </div>
+
+
     <!-- images -->
-     <div  style="width:1300px; margin-left: 200px;">
+     <div  style="width:1300px; margin-left: 200px; margin-top: 100px;">
         <h2 class="m-5">What's on your mind?</h2>
         <div class="row ">
             <div class="col"><a href=""><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/22/d94f8a12-6cb9-4b49-ab4d-7e4f452a0f09_PCTile.png" alt="" height="200px"></a></div>
@@ -108,9 +152,9 @@
         </div>
     </div>
 
-    <div  style="width:1300px; margin-left: 200px;">
+    <div  style="width:1300px; margin-left: 200px; margin-top: 80px;">
       <h2 class="m-5">Top Brands For You</h2>
-      <div class="row" style="margin-left: 40px;">
+      <div class="row mt-3" style="margin-left: 40px;">
           <div class="col"><a href=""><img src="https://b.zmtcdn.com/data/brand_creatives/logos/0cbb167db0f1175f86211e60c19885fc_1720799352.png?output-format=webp" alt="" height="100px"></a></div>
           <div class="col"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589433844.png?output-format=webp" alt="" height="100px"></div>
           <div class="col"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/d78cacb4cb49d84e50340c7c279f2d1c_1598075399.png?output-format=webp" alt="" height="100px"></div>
@@ -124,7 +168,7 @@
 
     <div style="width:1300px; margin-left: 200px; margin-top:100px;">
         <h2 class="m-2" style="padding-left: 40px;">Top restaurant chains in Kochi</h2>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center" style="margin-left: 60px;">
             <div class="card m-5" style="width: 18rem; border:none">
                 <img class="rounded"  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xvyrclhxftulsglktaek" height="250px" class="card-img-top" alt="...">
                 <div  style="position: absolute; height:30px;margin-top: 220px; background-color: rgba(0, 0, 0, 0.479);">
@@ -177,7 +221,7 @@
     
     <div id="offer" style="width:1300px; margin-left: 40px; ">
       <h2 class="m-2">Top Offers in Kochi</h2>
-      <div class="d-flex  justify-content-center pt-3 " style="padding-right: 380px;">
+      <div class="d-flex  justify-content-center pt-3 " style="padding-right: 450px;">
       <button type="button" class="btn btn-outline-secondary rounded-pill">Filter <i class="fa-solid fa-filter" style="color: #808080;"></i></button>
       <div class="dropdown">
         <button class="btn btn-outline-secondary dropdown-toggle rounded-pill" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -187,7 +231,7 @@
           <li><a class="dropdown-item" href="#">Delivery Time</a></li>
           <li><a class="dropdown-item" href="#">Rating</a></li>
           <li><a class="dropdown-item" href="#">Cost:Low to High</a></li><hr>
-          <li><a class="dropdown-item" href="#" style="color:orangered"><b>Apply</b></a></li>
+          <li><a class="dropdown-item" href="#" style="color:#db8bac"><b>Apply</b></a></li>
         </ul>
       </div>
       <button type="button" class="btn btn-outline-secondary rounded-pill">Fast Delivery</button>
@@ -197,7 +241,7 @@
       <button type="button" class="btn btn-outline-secondary rounded-pill">Pure Veg</button>
     </div>
       
-     <div class="d-flex justify-content-center">
+     <div class="d-flex justify-content-evenly "  >
         <div class="card m-5" style="width: 18rem; border:none">
             <img class="rounded"  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597" height="250px" class="card-img-top" alt="...">
             <div  style="position: absolute; height:30px;margin-top: 220px; background-color: rgba(0, 0, 0, 0.479);">
@@ -249,7 +293,7 @@
         
       </div>
 
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-evenly">
         <div class="card m-5" style="width: 18rem; border:none">
             <img class="rounded"  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mlku39zllyuo2dcozzul" height="250px" class="card-img-top" alt="...">
             <div  style="position: absolute; height:30px;margin-top: 220px; background-color: rgba(0, 0, 0, 0.479); width:100%;">
@@ -308,9 +352,10 @@
   <h1 class="text-center mt-5">Customer Stories</h1>
 <div class="d-flex justify-content-center">
   <div class="card m-5" style="width: 18rem;">
-      <img class="p-1 m-2 border rounded-circle" src="./images/u1.jpeg" alt="" height="90px" width="90px">
+       <div style="padding-left: 70px;">
+      <img class="p-1 m-2 border rounded-circle border"   src="./images/u2.jpeg" alt="" height="90px" width="90px">
       <h6 class="m-1">SHARAN HAREESH</h6>
-      
+    </div>
       <div class="card-body">
         
         <p class="card-text p-2" style="text-align: justify;"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sequi esse. Natus quaerat quisquam provident recusandae. Ducimus iure nemo, quia vel a cum aut doloribus quod molestias voluptas corrupti minus.
@@ -318,17 +363,20 @@
       </div>
     </div>
     <div class="card m-5" style="width: 18rem;">
-      <img class="p-1 m-2 border rounded-circle" src="./images/u2.jpeg" alt="" height="90px" width="90px">
+      <div style="padding-left: 70px;">
+      <img class="p-1 m-2 border rounded-circle" src="./images/u1.jpeg" alt="" height="90px" width="90px">
       <h6>DEVIKA VASUDEV</h6>
+    </div>
       <div class="card-body">
         <p class="card-text p-2" style="text-align: justify;"><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem rem facilis autem temporibus nihil eligendi praesentium consectetur adipisci totam ullam qui distinctio suscipit, numquam quam tempora ipsum sint, esse error?
         <a href="#">more</a></i></p>
       </div>
     </div>
     <div class="card m-5" style="width: 18rem;">
+      <div style="padding-left: 70px;">
       <img class="p-1 m-2 border rounded-circle" src="./images/u3.jpeg" alt="" height="90px" width="90px">
-      <h6>APARNA MURALI</h6>
-       
+      <h6>RAHUL MURALI</h6>
+    </div>
       <div class="card-body">
         
         <p class="card-text p-2" style="text-align: justify;"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia sit laborum, ducimus possimus, quaerat optio eius velit ea deleniti sapiente non inventore laudantium modi placeat hic molestiae quas dolorum!
@@ -360,7 +408,7 @@
 </div>
 
   <!-- footer -->
- <div class="d-flex justify-content-center text-white" style="background-color:orange ; width: 100%;">
+ <div class="d-flex justify-content-center text-white" style="background-color:#db8bac ; width: 100%;">
   <div class="m-5">
     <h4>Company:</h4>
       <p class="pt-2">About Us</p>
